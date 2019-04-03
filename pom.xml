@@ -47,6 +47,13 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   </distributionManagement>
 
   <repositories>
+<!--
+    <repository>
+      <id>cloudera.release</id>
+      <url>http://repository.cloudera.com/content/repositories/releases</url>
+      <name>Cloudera Release</name>
+    </repository>
+-->
     <repository>
       <id>cdh.repo</id>
       <url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
@@ -55,6 +62,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         <enabled>false</enabled>
       </snapshots>
     </repository>
+<!--
     <repository>
       <id>cdh.snapshots.repo</id>
       <url>https://repository.cloudera.com/artifactory/libs-snapshot-local</url>
@@ -71,6 +79,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
       <name>${distMgmtSnapshotsName}</name>
       <url>${distMgmtSnapshotsUrl}</url>
     </repository>
+-->
     <repository>
       <id>repository.jboss.org</id>
       <url>http://repository.jboss.org/nexus/content/groups/public/</url>
